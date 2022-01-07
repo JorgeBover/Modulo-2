@@ -1,0 +1,63 @@
+/*ejemplo 1*/
+#contenedor1 {    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    width: 600px;
+    border: 2px solid black;
+
+}
+
+/*ejemplo 2*/
+
+#contenedor2 {    
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+
+}
+
+/*ejemplo 3*/
+
+#contenedor3 {    
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+  
+}
+
+#rojo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+#azul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+#verde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
