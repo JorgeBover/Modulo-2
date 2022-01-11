@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+}
+
+.imagen {
+    width: 400px;
+}
+
+.imagen img {
+    filter: grayscale(100);
+    width: 100%;
+    transition: filter 0.2s linear;
+}
+
+img:hover {
+    filter: grayscale(0);
+}
+
+.titulo {
+    position: relative;
+    padding: 0px 0px 0px 25px;
+    background-color: gray;
+    width: 375px;
+    height: 100px;
+    
+}
+
+.datos {
+    padding: 0px 25px 0px 25px;
+    position: relative;
+    bottom: 120px;
+    background-color: rgb(233, 233, 233);
+    width: 350px;
+    height: 330px;
+}
+
+h1 {
+    color: white;
+}
+
+.icono {
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    left: 356px;
+    font-size: 30px;
+}
+
+.experiencia {
+    margin-top: 4px;
+    padding: 0px 25px 0px 25px;
+    border: 2px solid grey;
+    width: 346px;
+    height: 705px;
+
+}
+
+.perfil {
+    position: relative;
+    bottom: 497px;
+    padding: 0px 25px 0px 25px;
+    position: relative;
+    background-color: lightgray;
+    width: 350px;
+    
+}
+
+.pie {
+    position: relative;
+    background-color: grey;
+    color: white;
+    width: 800px;
+    text-align: center;
+    bottom: 492px;
+       
+
+}
+
+a:hover {
+    color: red;
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+
+   body {
+       display: block;
+       margin: 0;
+       width: 100%;
+   }
+
+   .titulo {
+       padding: 5px 10px 5px 10px;            
+       width: auto;
+       
+    }
+
+   .imagen {
+       margin-top: 3px;
+       width: 100%;
+   }
+    
+   .imagen img {
+       filter: none;
+       transition: 0s;
+          
+   }
+
+   .datos {
+       padding: 5px 10px 5px 10px;
+       margin: 0;
+       position: static;
+       width: auto;
+       height: fit-content;
+   }
+
+   .experiencia {
+        padding: 5px 10px 5px 10px;
+        margin-top: 3px;
+        position: static;
+        width: auto;
+        height: fit-content;
+        
+   }
+
+   .perfil {
+        padding: 5px 10px 5px 10px;
+        margin-top: 3px;
+        position: static;
+        width: auto;
+        height: fit-content;
+        
+        
+
+   }
+
+   .pie {
+       padding: 5px 10px 5px 10px;
+       margin-top: 3px;
+       position: static;
+       width: auto;
+   }
+
+   .icono {
+       position: absolute;
+       left: 90%;
+       
+
+   }
+}
