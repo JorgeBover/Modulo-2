@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(233, 239, 241);
+    margin: auto;
+    max-width: 1024px;
+}
+
+nav {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    opacity: 100;
+    margin-bottom: 5px;
+    
+}
+
+.bg-light {
+    opacity: 100;
+    background-color: white;
+}
+
+.carrusel {
+    margin: auto;
+    max-width: 1004px;
+    
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
+}
